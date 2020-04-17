@@ -5,7 +5,6 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 
 const User = require("../Model/User");
-const Film = require("../Model/Film");
 const Kuburan = require("../Model/Kuburan");
 users.use(cors());
 
